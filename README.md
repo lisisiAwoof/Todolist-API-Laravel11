@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# To-Do List Backend API
+📑 # To-Do List Backend API
 🇬🇧 [Eng]
 
 This project is a backend API for a multi-user To-Do list application. It allows users to register, log in, and manage their tasks. The API supports full CRUD (Create, Read, Update, Delete) functionality and restricts task access based on the authenticated user. The project is built using Laravel 11, MySQL for database management, and Postman for API testing.
@@ -17,7 +17,7 @@ This project is a backend API for a multi-user To-Do list application. It allows
 Proyek ini adalah API backend untuk aplikasi daftar tugas multi-pengguna. API ini memungkinkan pengguna untuk mendaftar, masuk, dan mengelola tugas-tugas mereka. API ini mendukung fungsionalitas CRUD (Create, Read, Update, Delete) / (Buat, Baca, Perbarui, Hapus) dan membatasi akses tugas berdasarkan pengguna yang diautentikasi. Proyek ini dibangun menggunakan Laravel 11, MySQL untuk manajemen basis data, dan Postman untuk pengujian API.
 
 
-## Features
+📊 ## Features
 🇬🇧 [Eng]
 - Multi-user authentication using Laravel Sanctum.
 - Task management (CRUD operations).
@@ -33,19 +33,18 @@ Proyek ini adalah API backend untuk aplikasi daftar tugas multi-pengguna. API in
 - Respons JSON untuk integrasi yang mudah dengan aplikasi frontend atau Postman.
 
 
-## Technologies Used
+💻 ## Technologies Used
 - **Laravel 11**: Backend framework.
 - **MySQL**: Relational database management.
 - **Postman**: API testing tool.
 - **Laravel Sanctum**: Authentication middleware for securing API routes.
 
-## Installation 
+📥 ## Installation 
 follow these steps if you want to try it at home for yourself (locally) 😎
 1. Clone the repository:
    ```
    git clone https://github.com/your-username/todolist-backend.git
    cd todolist-backend
-
 2. Install dependencies:
    ```
    composer install
@@ -66,8 +65,7 @@ follow these steps if you want to try it at home for yourself (locally) 😎
 6. Run the application
    ```
    php artisan serve
-
-## API Endpoints
+🔚 ## API Endpoints
 ### Authentication
 - Register: **POST** http://127.0.0.1:8000/api/register
 - Login: **POST** http://127.0.0.1:8000/api/login
@@ -81,8 +79,9 @@ Tokens will be provided after you managed to login. After that you can insert th
 - Update: **PUT** http://127.0.0.1:8000/api/todos{id}
 - Delete **DELETE** http://127.0.0.1:8000/api/todos{id}
 
-## My Documentation (API Testing in Postman)
+📝 ## My Documentation (API Testing in Postman)
 You can see screenshots of what i did here [Todolist API Gdocs](https://docs.google.com/document/d/1XJxm__pBvLS10gG2YPKbtRjO8gbF3rA1fSQMieWh-wM/edit?usp=sharing). 
+Terima kasih 🩷
 
 ## Contributing
 
