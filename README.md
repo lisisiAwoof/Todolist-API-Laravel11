@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-📑 # To-Do List Backend API
+# 📑 To-Do List Backend API
 🇬🇧 [Eng]
 
 This project is a backend API for a multi-user To-Do list application. It allows users to register, log in, and manage their tasks. The API supports full CRUD (Create, Read, Update, Delete) functionality and restricts task access based on the authenticated user. The project is built using Laravel 11, MySQL for database management, and Postman for API testing.
