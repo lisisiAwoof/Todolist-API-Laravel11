@@ -43,7 +43,7 @@ Proyek ini adalah API backend untuk aplikasi daftar tugas multi-pengguna. API in
 follow these steps if you want to try it at home for yourself (locally) 😎
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/todolist-backend.git
+   git clone https://github.com/lisisiAwoof/Todolist-API-Laravel11.git
    cd todolist-backend
 2. Install dependencies:
    ```
