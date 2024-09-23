@@ -18,14 +18,14 @@ Proyek ini adalah API backend untuk aplikasi daftar tugas multi-pengguna. API in
 
 
 ## Features
-🇬🇧
+🇬🇧 [Eng]
 - Multi-user authentication using Laravel Sanctum.
 - Task management (CRUD operations).
 - Display tasks specific to the currently authenticated user.
 - API endpoints for registering, logging in, managing tasks.
 - JSON responses for easy integration with frontend applications or Postman.
 
-🇮🇩
+🇮🇩 [Ind]
 - Otentikasi multi-pengguna menggunakan Laravel Sanctum.
 - Manajemen tugas (operasi CRUD).
 - Menampilkan tugas khusus untuk pengguna yang sedang diautentikasi.
@@ -49,7 +49,40 @@ follow these steps if you want to try it at home for yourself (locally) 😎
 2. Install dependencies:
    ```
    composer install
-4. 
+3. Set up environment (Copy .env)
+   ```
+   cp .env.example .env
+4. Configure database
+   ```
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=your_database
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
+5. Run migration
+   ```
+   php artisan migrate
+6. Run the application
+   ```
+   php artisan serve
+
+## API Endpoints
+### Authentication
+- Register: **POST** http://127.0.0.1:8000/api/register
+- Login: **POST** http://127.0.0.1:8000/api/login
+- Logout: **POST** http://127.0.0.1:8000/api/logout
+- User check: **GET** http://127.0.0.1:8000/api/user?Accept=application/json
+  
+### Todolist Management (requires token)
+Tokens will be provided after you managed to login. After that you can insert the token in the Authorization menu and choose the Bearer Token option.
+- Create: **POST** http://127.0.0.1:8000/api/todos
+- Read: **GET** http://127.0.0.1:8000/api/todos
+- Update: **PUT** http://127.0.0.1:8000/api/todos{id}
+- Delete **DELETE** http://127.0.0.1:8000/api/todos{id}
+
+## My Documentation (API Testing in Postman)
+You can see screenshots of what i did here [Todolist API Gdocs](https://docs.google.com/document/d/1XJxm__pBvLS10gG2YPKbtRjO8gbF3rA1fSQMieWh-wM/edit?usp=sharing). 
 
 ## Contributing
 
