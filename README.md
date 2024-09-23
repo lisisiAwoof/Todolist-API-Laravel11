@@ -7,47 +7,47 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# To-Do List Backend API
+🇬🇧
+This project is a backend API for a multi-user To-Do list application. It allows users to register, log in, and manage their tasks. The API supports full CRUD (Create, Read, Update, Delete) functionality and restricts task access based on the authenticated user. The project is built using Laravel 11, MySQL for database management, and Postman for API testing.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+🇮🇩
+Proyek ini adalah API backend untuk aplikasi daftar tugas multi-pengguna. API ini memungkinkan pengguna untuk mendaftar, masuk, dan mengelola tugas-tugas mereka. API ini mendukung fungsionalitas CRUD (Create, Read, Update, Delete) / (Buat, Baca, Perbarui, Hapus) dan membatasi akses tugas berdasarkan pengguna yang diautentikasi. Proyek ini dibangun menggunakan Laravel 11, MySQL untuk manajemen basis data, dan Postman untuk pengujian API.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Features
+🇬🇧
+- Multi-user authentication using Laravel Sanctum.
+- Task management (CRUD operations).
+- Display tasks specific to the currently authenticated user.
+- API endpoints for registering, logging in, managing tasks.
+- JSON responses for easy integration with frontend applications or Postman.
 
-## Learning Laravel
+🇮🇩
+- Otentikasi multi-pengguna menggunakan Laravel Sanctum.
+- Manajemen tugas (operasi CRUD).
+- Menampilkan tugas khusus untuk pengguna yang sedang diautentikasi.
+- Titik akhir API untuk mendaftar, masuk, mengelola tugas.
+- Respons JSON untuk integrasi yang mudah dengan aplikasi frontend atau Postman.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Technologies Used
+- **Laravel 11**: Backend framework.
+- **MySQL**: Relational database management.
+- **Postman**: API testing tool.
+- **Laravel Sanctum**: Authentication middleware for securing API routes.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Installation 
+follow these steps if you want to try it at home for yourself (locally) 😎
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/todolist-backend.git
+   cd todolist-backend
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+2. Install dependencies:
+   ```
+   composer install
+4. 
 
 ## Contributing
 
