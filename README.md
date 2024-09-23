@@ -8,10 +8,12 @@
 </p>
 
 # To-Do List Backend API
-🇬🇧
+🇬🇧 [Eng]
+
 This project is a backend API for a multi-user To-Do list application. It allows users to register, log in, and manage their tasks. The API supports full CRUD (Create, Read, Update, Delete) functionality and restricts task access based on the authenticated user. The project is built using Laravel 11, MySQL for database management, and Postman for API testing.
 
-🇮🇩
+🇮🇩 [Ind]
+
 Proyek ini adalah API backend untuk aplikasi daftar tugas multi-pengguna. API ini memungkinkan pengguna untuk mendaftar, masuk, dan mengelola tugas-tugas mereka. API ini mendukung fungsionalitas CRUD (Create, Read, Update, Delete) / (Buat, Baca, Perbarui, Hapus) dan membatasi akses tugas berdasarkan pengguna yang diautentikasi. Proyek ini dibangun menggunakan Laravel 11, MySQL untuk manajemen basis data, dan Postman untuk pengujian API.
 
 
